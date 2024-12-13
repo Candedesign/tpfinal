@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Batalla Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Batalla Pokemon</h1>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="contenedor">
+            <h2 class="titulo-contenedor">ELIGE TU EQUIPO</h2>
+            <div class="selecionapokemon">
+                <div id="cardpokemon" class="card-container"></div>
+            </div>
+            <div class="contenedor-equipos">
+                <div class="team">
+                    <h2 class="titulo-equipo-elegido">Equipo elegido</h2>
+                    <div id="equipoelegido"></div>
+                    <button id="comenzar-boton" class="comenzar-boton oculto" type="button">¡A luchar!</button>
+                </div>
+                <div class="team">
+                    <h2 class="titulo-equipo-ordenador">Equipo Adversario</h2>
+                    <div id="equipoordenador"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer></footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
